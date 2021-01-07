@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGrid debe de mostrar items cuando se cargan imagenes 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    metallica
+     
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="666"
+      key="666"
+      title="666"
+      url="https://www.666.cl/666.jpg"
+    />
+    <GifGridItem
+      id="667"
+      key="667"
+      title="666"
+      url="https://www.666.cl/666.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en GifGrid debe mostrarse correctamente  1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+     
+    metallica
+     
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
